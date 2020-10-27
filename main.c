@@ -1,0 +1,3 @@
+#include<stdio.h>
+#include<stdlib.h>
+float main(){float Kg, M, imc;printf("Em (m) digite sua altura:");scanf("%f",&M);printf("Digite seu peso:");scanf("%f",&Kg);imc=Kg/(M*M);if(imc<18.5){printf("(MAGREZA),seu IMC é:%f",imc);}else if(imc>=18.5&&imc<=24.9){printf("(NORMAL),seu IMC é:%f",imc);}else if(imc>=25 && imc<=29.9){printf("(SOBREPESO),seu IMC é:%f",imc);}else if(imc>=30 && imc<=39.9){printf("(OBESIDADE),seu IMC é:%f",imc);}else if(imc>=40){printf("(OBESIDADE GRAVE),seu IMC é:%f",imc);}}
